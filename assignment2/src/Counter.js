@@ -4,7 +4,7 @@ export default class Counter extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: parseInt(props.value),
+      value: props.value,
     };
   }
 
